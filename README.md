@@ -13,6 +13,10 @@ Once ready, automerge is used to share all text editing operations between any c
 
 If you want to see a live demo, just navigate to [https://rozek.de/automerge/sharedTextValue.html](https://rozek.de/automerge/sharedTextArea.html). Open it twice in two browser windows and see how changes in one window affect the other one - and vice versa.
 
+### Current Limitations ###
+
+* it seems to be difficult to select some text while somebody else is working - even if both reanges do not overlap. This _may_ be a problem of the approach used to detect and update selections - perhaps, a `contenteditable` may be better than a `textarea` in this situation
+
 ## License ##
 
 [MIT License](LICENSE.md)
